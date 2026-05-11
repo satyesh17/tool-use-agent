@@ -20,7 +20,7 @@ def main():
         "What's the temperature in Paris in Celsius? If you convert that to Fahrenheit, what's the value?",
         
         # No tools needed: should answer from training
-        "What is the capital of France?",
+        "What is the capital of India? Which Indian city has the worst traffic congestion, is it not Bangalore? What is the current weather of the city? What is the current population of that city and what is its forecasted population in 2047?",
     ]
     
     for q in queries:

@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tool_use_agent"
+version = "0.1.0"
+description = "Tool-use agent in pure Python and LangGraph"
+
+[tool.setuptools.packages.find]
+where = ["src"]
