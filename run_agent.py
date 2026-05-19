@@ -1,6 +1,10 @@
 """Demo runner for the pure-Python tool-use agent."""
 
-from src.tool_use_agent.agent import ToolUseAgent
+import sys
+import os
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src'))
+
+from tool_use_agent.agent import ToolUseAgent
 
 
 def main():
